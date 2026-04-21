@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Broiler Days Fun Run - Results</title>
+  <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/indexStyles.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
 <body>
-  <section id="header">
-    <iframe id="headerIframe"></iframe>
-  </section>
+  <header>
+    <iframe id="headerIframe" title="header"></iframe>
+  </header>
   <section class="content">
     <div id="resultsContainer">
       <div class="navBar">
@@ -24,8 +26,8 @@
           <label for="ageGroupSelect">Select Division:</label>
           <select id="ageGroupSelect">
             <option value="Overall">Overall</option>
-            <option value=0>14 & Under</option>
-            <option value=1>15-18</option>
+            <option value=0>13 & Under</option>
+            <option value=1>14-18</option>
             <option value=2>19-29</option>
             <option value=3>30-39</option>
             <option value=4>40-49</option>
@@ -40,11 +42,12 @@
 
     <section id="noResultsContainer">
       <br>
-      <h1>Will Be Available Following the Race</h1>
+      <h1 class="noResults">Will Be Available Following the Race</h1>
     </section>
-
+    
   </section>
-
+  
+  <script src="scripts/footer.js"></script>
   <script src="scripts/indexScript.js"></script>
   <script src="scripts/tableScript.js"></script>
 </body>
