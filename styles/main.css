@@ -131,27 +131,37 @@ img {
 
 /* Responsive */
 @media only screen and (max-width: 768px) {
+  
   #header iframe {
     width: 100%;
   }
+  
   .content {
     width: calc(100% - 4em);
   }
+  
   h1 {
     font-size: 30.0pt;
   }
+  
   h2 {
     font-size: 17.0pt;
   }
+  
   footer span {
     margin: 0 1rem;
   }
+  
 }
+
 @media only screen and (max-width: 480px) {
+  
   h1 {
     font-size: 25.0pt;
   }
+  
   footer span {
     display: block;
   }
+  
 }
