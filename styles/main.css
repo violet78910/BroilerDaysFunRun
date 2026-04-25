@@ -4,8 +4,8 @@
 /* Theme Variables */
 :root {
   --mainTextColor: #212121;
-  --mainThemeColor: #ffb02d;
-  --secondaryTextColor: #7a5a26;
+  --mainThemeColor: #95d46c;
+  --secondaryTextColor: #597f41;
   --normalFont: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   --headerFont: 'Roboto Condensed', 'Helvetica', 'Arial', 'sans-serif';
 }
