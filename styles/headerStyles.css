@@ -61,8 +61,13 @@ body {
   height: 100vh;
 }
 
+#imageDiv {
+  width: 28%;
+}
+
 #imageDiv > img {
-  height: 23em;
+  max-height: 23em;
+  max-width: 100%;
   pointer-events: none;
 }
 
