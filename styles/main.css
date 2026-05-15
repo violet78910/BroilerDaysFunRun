@@ -64,6 +64,10 @@ header iframe {
   margin-bottom: 4em;
 }
 
+.disabled {
+  display: none;
+}
+
 /* Typography */
 h1, h2, h3, h4 {
   font-family: var(--headerFont);
@@ -90,7 +94,7 @@ h4 {
   font-size: 12.0pt;
 }
 
-a, h2, h3, h4 {
+a, h2 {
   color: var(--secondaryTextColor);
 }
 
