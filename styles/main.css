@@ -65,7 +65,7 @@ header iframe {
 }
 
 /* Typography */
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: var(--headerFont);
   font-weight: 600;
 }
