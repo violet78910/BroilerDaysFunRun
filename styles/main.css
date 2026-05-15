@@ -82,7 +82,15 @@ h2 {
   font-size: 18.0pt;
 }
 
-a, h2 {
+h3 {
+  font-size: 14.0pt;
+}
+
+h4 {
+  font-size: 12.0pt;
+}
+
+a, h2, h3, h4 {
   color: var(--secondaryTextColor);
 }
 
